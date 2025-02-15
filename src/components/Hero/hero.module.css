@@ -1,0 +1,169 @@
+@import '../../vars.css';
+.container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right:10%;
+    color: var(--color-text);
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures everything is center-aligned */
+    justify-content: center;
+    text-align: center; /* Centers text */
+    width: 100%; /* Ensures full width */
+    opacity: 1 !important;
+   
+}
+.title{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: var(--font-roboto);
+    background: var(--color-text);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-left: 0; /* Remove left padding to center */
+}
+
+
+
+h1, h3{
+    text-shadow:black; /* Adds depth */
+    padding-bottom: 0px;
+}
+
+
+
+
+.description{
+    font-size:25px;
+    font-family:var(--font-roboto);
+    margin-bottom:52px;
+}
+.contactBtn{
+    text-decoration:none;
+    color:var(--color-text);
+    border-radius:100px;
+    border: 2px solid white;
+    font-size:25px;
+    font-weight:60px;
+    padding:17px 26px;
+
+}
+
+.envelope{
+    padding-right: 5px;;
+}
+
+.contactBtn.hover{
+    color: white;
+}
+
+.heroImg{
+    width:30%;
+    z-index: 1;
+    animation-name:floating;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    border-radius:200px;
+
+}
+
+@keyframes floating {
+    0%{
+        transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+    }
+    100%{
+        transform: translate(0,-0px);
+    }
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  
+
+  /* Typing Effect (Only for the Name) */
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(20, end) forwards;
+}
+
+
+/* Cursor Blink Animation */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+  .cursor{
+    display: inline-block;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite; /* Blinking animation */
+    color: var(--color-primary); /* Your desired color */
+  }
+
+
+
+
+
+@media scren and (max-width:830px){
+    .container{
+        flex-direction: column-reverse;
+
+    }
+    .content{
+        align-items:center;
+    }
+}
+
+.topBlur{
+    position: absolute;
+    width:50vw;
+    height: 50vw;
+    min-width:350px;
+    min-width:350px;
+    top:-128px;
+    left: 10vw;
+    border: 746px;
+    
+    filter:blur(100px);
+    z-index:0;
+}
+
+.bottomBlur{
+    position: absolute;
+    width:70vw;
+    height: 50vw;
+    min-width:350px;
+    min-width:250px;
+    top:246px;
+    right: 10vw;
+    border-radius: 746px;
+    background: rgba(25,55,109,0.7);
+    filter:blur(100px);
+    z-index:0;
+}
+

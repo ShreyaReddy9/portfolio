@@ -1,0 +1,192 @@
+/* ============================
+   General Section Styling
+============================ */
+.container {
+    padding: 10px;
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  /* Section Title */
+  .title {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 30px;
+    color:var(--color-text);
+  }
+  
+  /* ============================
+     Spotlight Carousel Styling
+  ============================ */
+  .carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .carousel-item {
+    position: relative; /* Ensures caption can be absolutely positioned inside */
+    
+  }
+  
+  .carousel img {
+    object-fit: cover;
+    height: 400px;
+    border-radius: 12px;
+    opacity: 0.5;
+  }
+  
+  .captionBg {
+    position: absolute;
+  bottom: 0; /* Sticks to bottom of image */
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+  }
+  
+  .captionBg h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .captionBg p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .githubIcon {
+    color: white;
+    font-size: 24px;
+    margin-top: 1px;
+    transition: 0.3s;
+
+  }
+  
+  .githubIcon:hover {
+    color: #4caf50;
+  }
+
+  .iconsRight {
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.githubIcon, .openIcon {
+    color: white; /* Adjust color if needed */
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+  
+}
+
+.githubIcon:hover, .openIcon:hover {
+    color: #4caf50; /* Change color on hover */
+}
+
+  
+  /* ============================
+     Project Grid Layout
+  ============================ */
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 1080px) {
+    .projectsGrid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  /* ============================
+     Individual Project Cards
+  ============================ */
+  .projectsCard {
+    background: #1c1c1e;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .projectsCard:hover {
+    transform: translateY(-7px);
+    background: #242429;
+  }
+  
+  /* Icons (Folder + GitHub) */
+  .cardIcons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .folderIcon {
+    color: #4caf50;
+    font-size: 24px;
+  }
+  
+  .githubIcon {
+    color: #aaa;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  
+  .githubIcon:hover {
+    color: #4caf50;
+  }
+  
+  /* Project Title */
+  .cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Project Description */
+  .cardDesc {
+    font-size: 16px;
+    color: #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* ============================
+     Tech Stack Badges
+  ============================ */
+  .cardTech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .techBadge {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  

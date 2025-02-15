@@ -1,0 +1,66 @@
+{
+  "normalProjects": [
+    {
+      "title": "Dragon Repeller",
+      "description": "A third-person survival-mode game where you battle against a powerful dragon preventing people from leaving the town.",
+      "skills": ["React.js"],
+      "source": "https://github.com/ShreyaReddy9/DragonRepeller",
+      "open": " https://shreyareddy9.github.io/DragonRepeller/"
+      
+    },
+    {
+      "title": "Score Keeper",
+      "description": "A three.js simulation of the planet system revolving around a monolith.",
+      "skills": ["JavaScript (Three.js)"],
+      "source": "",
+      "open": ""
+      
+    },
+    {
+      "title": "Photo Blog",
+      "description": "A multi-player story-telling web game for 3-5 players using sockets for concurrent gameplay.",
+      "skills": ["Node.js(Express.js)"],
+      "source": "",
+      "open": ""
+    }
+  ],
+
+"spotlightProjects": [
+
+  {
+    "title": "medev - Feedback Processing API",
+    "description": "An API for processing customer feedback efficiently.",
+    "image": "/assets/projects/FPS.png",
+    "skills": ["Flask", "HTML", "CSS","MongoDB"],
+   
+    "source": "https://github.com/ShreyaReddy9/medev"
+  },
+
+  {
+    "title": "Book Recommendation System",
+    "description": "A system that recommends books based on user preferences.",
+    "image": "/assets/projects/BRS.png",
+    "skills": ["Python", "JavaScript", "MongoDB"],
+    
+    "source": "https://github.com/ShreyaReddy9/bookRecommendation"
+  },
+
+  {
+    "title": "Review Summarizer Using Sentimental Analysis",
+    "description": "An API for processing customer feedback efficiently.",
+    "image": "/assets/projects/RSA.png",
+    "skills": ["Python","RNN","NLP","XLNet"],
+   
+    "source": ""
+  },
+
+  {
+    "title": "Hospital Monitoring System",
+    "description": "An API for processing customer feedback efficiently.",
+    "image": "/assets/projects/HMS.png",
+    "skills": ["Java Swing","Spring Boot", "React", "MySQL", "AES Encryption"],
+   
+    "source": ""
+  }
+]
+}

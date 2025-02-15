@@ -1,0 +1,63 @@
+[
+    {
+      "category": "Frontend",
+      "skills": [
+        {
+          "name": "React",
+          "description": "For building dynamic and efficient user interfaces tailored to modern web applications.",
+          "imgSrc": "/assets/skills/react.png"
+        },
+        {
+          "name": "Next.js",
+          "description": "For creating high-performance web applications with server-side rendering and seamless SEO optimization.",
+          "imgSrc": "/assets/skills/nextjs.png"
+        },
+        {
+          "name": "TypeScript",
+          "description": "A powerful superset of JavaScript used to build scalable frontend and backend applications with static typing.",
+          "imgSrc": "/assets/skills/typescript.png"
+        }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        {
+          "name": "Node.js",
+          "description": "For building scalable and high-performance backend services.",
+          "imgSrc": "/assets/skills/node.png"
+        },
+        {
+          "name": "Express.js",
+          "description": "For creating RESTful APIs and handling server-side logic.",
+          "imgSrc": "/assets/skills/express.png"
+        },
+        {
+            "name": "Django",
+            "description": "A high-level Python framework for fast, secure development with access control",
+            "imgSrc": "/assets/skills/django.png"
+          }
+      ]
+    },
+    {
+      "category": "Others",
+      "skills": [
+        {
+          "name": "MongoDB",
+          "description": "For managing NoSQL databases and handling large data sets.",
+          "imgSrc": "/assets/skills/mongodb.png"
+        },
+        {
+          "name": "Docker",
+          "description": "For creating scalable, portable, and efficient containerized applications..",
+          "imgSrc": "/assets/skills/docker.png"
+        },
+        {
+            "name": "Git",
+            "description": "For collaboration, and maintaining a clean development workflow.",
+            "imgSrc": "/assets/skills/git.png"
+          }
+      ]
+    }
+  ]
+  

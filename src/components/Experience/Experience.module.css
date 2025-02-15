@@ -1,0 +1,165 @@
+@import '../../vars.css';
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+
+ul, li {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Left Section: List of Companies */
+.companyList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+/* Default State */
+.companyItem {
+    cursor: pointer;
+    padding: 15px;
+    background: transparent;
+    border-right: 5px solid transparent; /* Invisible border to maintain alignment */
+    text-align: left;
+    font-size: 20px;
+    color: #ccc;
+    
+    font-weight: 500;
+}
+
+
+
+.companyItem:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* Highlight Active Company */
+.companyItem.active {
+    color: white;
+    font-weight: bold;
+    border-right: 5px solid #6678d1;
+    padding-left: 10px;
+}
+
+/* Change the color of the organisation name */
+.companyName {
+    color: var(--color-primary);/* Change this to any color you prefer */
+    font-weight: bold; /* Make it stand out */
+}
+
+/* Optional: Add an underline or highlight */
+.companyName:hover {
+    text-decoration: underline ;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+/* Right Section: Details */
+.detailsPanel {
+    width: 65%;
+    
+    color: white;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detailsPanel h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.detailsPanel p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.detailsPanel ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.experienceList {
+    list-style: none !important; /* Remove default bullets */
+    padding-left: 0px; /* Adjust spacing */
+}
+
+.experienceItem {
+    position: relative;
+    padding-left: 35px; /* Space for custom bullet */
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Custom Bullet - Change This */
+.experienceItem::before {
+    content: "➜"; /* Arrow Bullet */
+    color: var(--color-primary); /* Customize bullet color */
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+    .companyList {
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        padding-right: 0;
+    }
+    .detailsPanel {
+        width: 100%;
+    }
+}
+
+
+
