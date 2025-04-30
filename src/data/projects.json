@@ -1,6 +1,13 @@
 {
   "normalProjects": [
     {
+      "title": "Quote a Picture",
+      "description": "A JavaScript-based interactive memory board that lets users upload images, flip photo cards, and annotate moments with personal quotes .",
+      "skills": ["Node.js(Express.js)"],
+      "source": "https://github.com/ShreyaReddy9/QuotePicture",
+      "open": "http://localhost:5000/"
+    },
+    {
       "title": "Dragon Repeller",
       "description": "A third-person survival-mode game where you battle against a powerful dragon preventing people from leaving the town.",
       "skills": ["React.js"],
@@ -9,20 +16,14 @@
       
     },
     {
-      "title": "Score Keeper",
+      "title": "Planets",
       "description": "A three.js simulation of the planet system revolving around a monolith.",
       "skills": ["JavaScript (Three.js)"],
-      "source": "",
-      "open": ""
+      "source": "https://github.com/ShreyaReddy9/Planets",
+      "open": "https://shreyareddy9.github.io/Planets/"
       
-    },
-    {
-      "title": "Photo Blog",
-      "description": "A multi-player story-telling web game for 3-5 players using sockets for concurrent gameplay.",
-      "skills": ["Node.js(Express.js)"],
-      "source": "",
-      "open": ""
     }
+   
   ],
 
 "spotlightProjects": [

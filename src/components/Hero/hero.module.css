@@ -167,3 +167,14 @@ h1, h3{
     z-index:0;
 }
 
+.treeContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    pointer-events: none; /* so user can click through it */
+    opacity: 0.3; /* adjust for visual effect */
+    z-index: 0; /* make sure it doesn't cover important content */
+  }
+  
