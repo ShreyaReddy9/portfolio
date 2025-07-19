@@ -18,6 +18,8 @@ export const Navbar = () => {
                 <li><a href="#about">About</a></li>
                 <li><a href='#experience'>Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="https://shreyareddy9.github.io/blogsite/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+
                 
               </ul>
             </div>
