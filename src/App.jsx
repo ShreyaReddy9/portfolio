@@ -6,12 +6,14 @@ import {About} from './components/About/About';
 import {Experience} from './components/Experience/Experience';
 import {Projects} from './components/Projects/Projects';
 import {Skills} from './components/Skills/Skills';
+import FractalTree from './components/FractalTree/FractalTree';
 
 
 function App() {
  
   return(
    <div className={styles.App}> <Navbar/>
+   <FractalTree/>
    <Hero/>
    <About/>
    <Skills/>

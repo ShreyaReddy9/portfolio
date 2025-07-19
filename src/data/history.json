@@ -1,30 +1,41 @@
 [
-    {
-      "role": "Machine Learning Graduate Assistant ",
-      "organisation": "SDSU Research Foundation",
-      "startDate": "Jan, 2023",
-      "endDate": "Present",
-      "experiences": ["Assisted students in comprehending complex topics, including algorithms, data structures, and machine learning concepts through academic support and discussions."],
-      "imageSrc": "/assets/history/google.png"
-    },
-    {
-      "role": "Machine Learning Engineer",
-      "organisation": "Digital Innovation Lab",
-      "startDate": "Aug, 2023",
-      "endDate": "Jan, 2024",
-      "experiences": ["Contributed to the development of an AI-driven chatbot, assisting in data preprocessing, model training, and performance evaluation.","Worked alongside a team to implement Natural Language Processing (NLP) techniques for intent recognition and response generation."],
-      "imageSrc": "/assets/history/sdsurf.jpeg"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Innova Solutions",
-      "startDate": "Jun, 2022",
-      "endDate": "Jun, 2023",
-      "experiences": [
-        "Developed core components of a cloud-based inventory management system using Java Spring Boot & Angular, improving system efficiency by 20%.",
-        "Designed and optimized RESTful APIs & PostgreSQL schemas."
-      ],
-      "imageSrc": "/assets/history/innova_solutions.png"
-    }
-  ]
   
+  {
+  "role": "Software Developer",
+  "organisation": "Hack4Impact",
+  "startDate": "March, 2025",
+  "endDate": "Present",
+  "experiences": [
+                  "Partnered with a mission-driven tech team at Hack4Impact to craft thoughtful, impactful software solutions that empower nonprofit organizations to scale their reach and drive social good. We developed scalable, user-focused features using React, Typescript and PostgreSQL.",
+                  "I also supported the implementation of CI/CD pipelines with GitHub Actions and CircleCI to ensure smooth and reliable deployments."
+                ],
+  "imageSrc": "/assets/history/google.png"
+},
+{
+  "role": "Machine Learning Graduate Assistant ",
+  "organisation": "SDSU Research Foundation",
+  "startDate": "Jan, 2023",
+  "endDate": "Present",
+  "experiences": ["Assisted students in comprehending complex topics, including algorithms, data structures, and machine learning concepts through academic support and discussions."],
+  "imageSrc": "/assets/history/google.png"
+},
+{
+  "role": "Machine Learning Engineer",
+  "organisation": "Digital Innovation Lab",
+  "startDate": "Aug, 2023",
+  "endDate": "Jan, 2024",
+  "experiences": ["Contributed to the development of an AI-driven chatbot, assisting in data preprocessing, model training, and performance evaluation.","Worked alongside a team to implement Natural Language Processing (NLP) techniques for intent recognition and response generation."],
+  "imageSrc": "/assets/history/sdsurf.jpeg"
+},
+{
+  "role": "SWE Intern",
+  "organisation": "Innova Solutions",
+  "startDate": "Jun, 2022",
+  "endDate": "Jun, 2023",
+  "experiences": [
+    "Developed core components of a cloud-based inventory management system using Java Spring Boot & Angular, improving system efficiency by 20%.",
+    "Designed and optimized RESTful APIs & PostgreSQL schemas."
+  ],
+  "imageSrc": "/assets/history/innova_solutions.png"
+}
+]
